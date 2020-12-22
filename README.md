@@ -20,3 +20,4 @@ download this file, change to your username, password and reponame and run
 python script.py
 ```
 
+This is only for educational purposes, learning selenium and tried making cool stuf with it.
