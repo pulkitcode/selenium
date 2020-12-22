@@ -1,4 +1,4 @@
-# selenium
+# Selenium
 
 <h1>Hack to get crazy amount of commits in no time<h1>
 
