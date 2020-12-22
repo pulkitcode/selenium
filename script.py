@@ -11,21 +11,22 @@ driver = webdriver.Chrome()
 wait = WebDriverWait(driver, 10)
 driver.get("https://github.com/login")
 elem = driver.find_element(By.ID, "login_field")
-#Add your username here
+
+#Replace your username here
 elem.send_keys("username")
-#Add your password here
 elem2 = driver.find_element(By.ID, "password")
-#Add your reponame here
-elem2.send_keys("reponame")
+
+#Replace your password here (line 18)
+elem2.send_keys("password")
 elem3 = driver.find_element(By.NAME, "commit")
 elem3.send_keys(Keys.RETURN)
 
 
-
+#Replace your username and reponame here
 URL = "https://github.com/username/reponame/edit/main/README.md"
 
-# Change 100 to the number of commits you need
-for x in range(1,100):
+#Replace the number 5 with the number of commits you want
+for x in range(1,5):
     
 	newfilename = "READ" + str(x) + "E.md"
 	driver.get(URL)
@@ -34,6 +35,13 @@ for x in range(1,100):
 	elem4 = driver.find_element(By.ID, "submit-file")
 	elem4.send_keys(Keys.RETURN)
 	URL = "https://github.com/username/reponame/edit/main/READ" + str(x) + "E.md"
+
+newfilename2 = "README.md"
+driver.get(URL)
+elem5 = driver.find_element(By.NAME, "filename")
+elem5.send_keys((Keys.BACKSPACE)*9 + newfilename2)
+elem5 = driver.find_element(By.ID, "submit-file")
+elem5.send_keys(Keys.RETURN)
 
 
 wait = WebDriverWait(driver, 30)
