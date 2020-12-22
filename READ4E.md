@@ -1,6 +1,6 @@
 # selenium
 
-<h2>Hack to get crazy amount of commits in no time<h2>
+<h1>Hack to get crazy amount of commits in no time<h1>
 
 How to use this script
 
