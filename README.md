@@ -2,6 +2,8 @@
 
 <h1>Hack to get crazy amount of commits in no time<h1>
 
+Note: Your repository should have a README.md file
+
 How to use this script
 
 ```
@@ -20,4 +22,4 @@ download this file, change to your username, password and reponame and run
 python script.py
 ```
 
-This is only for educational purposes, learning selenium and tried making cool stuf with it.
+This is only for educational purposes, learning selenium and tried making cool stuff with it.
