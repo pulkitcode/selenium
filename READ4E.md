@@ -4,7 +4,9 @@
 
 How to use this script
 
+```
 pip install selenium
+```
 
 Download ChromeDriver or a driver for whichever browser you are using,
 
@@ -14,4 +16,6 @@ unzip this file and make it global (put it in usr/local/bin)
 
 downlaoad this file, change to your username, password and reponame and run
 
+```
 python script.py
+```
