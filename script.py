@@ -36,6 +36,8 @@ for x in range(1,11):
 	elem4.send_keys((Keys.BACKSPACE)*length + newfilename)
 	elem4 = driver.find_element(By.ID, "submit-file")
 	elem4.send_keys(Keys.RETURN)
+	
+	#Replace your username and reponame here as well
 	URL = "https://github.com/username/reponame/edit/main/READ" + str(x) + "E.md"
 
 newfilename2 = "README.md"
