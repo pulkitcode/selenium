@@ -22,7 +22,7 @@ elem3 = driver.find_element(By.NAME, "commit")
 elem3.send_keys(Keys.RETURN)
 
 
-#Replace your username and reponame here
+#Replace your username and reponame and the main branch name here
 URL = "https://github.com/username/reponame/edit/main/README.md"
 
 #Replace the number 5 with the number of commits you want
@@ -37,7 +37,7 @@ for x in range(1,11):
 	elem4 = driver.find_element(By.ID, "submit-file")
 	elem4.send_keys(Keys.RETURN)
 	
-	#Replace your username and reponame here as well
+	#Replace your username and reponame and the main branch name here as well
 	URL = "https://github.com/username/reponame/edit/main/READ" + str(x) + "E.md"
 
 newfilename2 = "README.md"
