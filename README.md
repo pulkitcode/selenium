@@ -28,3 +28,5 @@ python script.py
 ```
 
 This is only for educational purposes, learning selenium and tried making cool stuff with it.
+
+Star the repo if you liked this and I'll try to make some other cool stuff with selenium.
