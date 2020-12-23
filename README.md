@@ -14,7 +14,12 @@ Download ChromeDriver or a driver for whichever browser you are using,
 
 https://chromedriver.chromium.org/downloads
 
+For Mac Users,
+
 unzip this file and make it global (put it in usr/local/bin)
+
+For Windows users,
+put the chromedriver (exe file) and the script in the same folder
 
 download this file, change to your username, password and reponame and run
 
